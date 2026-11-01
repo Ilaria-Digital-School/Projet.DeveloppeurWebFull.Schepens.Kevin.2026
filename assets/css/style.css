@@ -1,0 +1,161 @@
+/* HEADER ET FOOTER */
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(247, 213, 247);
+    text-align: center;
+}
+
+.menu_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    color: darkblue;
+}
+
+header a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+header a:hover {
+    color: rgb(113, 157, 246);
+}
+
+footer {
+    display: flex;
+    background-color: rgb(127, 21, 127);
+    color: white;
+    text-align: center;
+    align-items: top;
+
+    height: 150px;
+}
+
+footer i {
+    color: white;
+    margin: 0px 20px;
+}
+
+/* PAGES ACCUEIL */
+
+.presentation_accueil {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 10px;
+
+    background-color: antiquewhite;
+}
+
+.presentation_accueil img {
+    width: 50%;
+    height: auto;
+}
+
+.best_sellers {
+    background-color: aqua;
+    margin: auto;
+    width: 99%;
+    margin: 30px auto;
+    padding: 10px;
+
+    text-align: center;
+}
+
+.categories_best_sellers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories_best_sellers h3 {
+    width: 33%;
+}
+
+.images_best_sellers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.images_best_sellers img {
+    width: 33%;
+    height: auto;
+}
+
+.avis_google {
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+
+    background-color: blanchedalmond;
+}
+
+/* PAGES SOINS, ONGLERIE, EPILATIONS, BEAUTE */
+
+.presentation_prestation_vide {
+    width: 50%;
+}
+
+.presentation_prestation_01 {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.presentation_prestation_01 img {
+    width: 50%;
+}
+
+.presentation_prestation_02 {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.presentation_prestation_02 img {
+    width: 50%;
+}
+
+.texte_presentation_prestation {
+    padding: 10px;
+}
+
+/* A PROPOS */
+
+.qui_sommes_nous {
+    background-color: beige;
+    margin: 30px auto;
+}
+
+.qui_sommes_nous h2 {
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+.qui_sommes_nous p {
+    margin-bottom: 30px;
+    padding: 10px; 
+}
+
