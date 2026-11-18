@@ -159,3 +159,82 @@ footer i {
     padding: 10px; 
 }
 
+/* PAGE PRENDRE RDV */
+.tableau_rdv {
+    width: 95%;
+    background-color: rgb(255 127 255 / 1);
+    margin: 30px auto;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.tableau_rdv button {
+    width: 20%;
+}
+
+.tableau_rdv p {
+    padding-left: 20px;
+}
+
+.categorie_prestation, .details_prestation {
+    display: flex;
+}
+
+.categorie_prestation {
+    padding-bottom: 5px;
+}
+
+.liste_prestations {
+    padding-top: 5px;
+    display: none;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+/* PAGE ADMINISTRATION*/
+.bloc_ajout_prestation {
+    width: 95%;
+    background-color: rgb(255 127 255 / 1);
+    margin: 30px auto;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.bloc_ajout_prestation label {
+    font-size: larger;
+    width: 25%;
+}
+
+.bloc_ajout_prestation input {
+    width: 75%;
+    display: block;
+}
+
+.bloc_ajout_prestation textarea {
+    width: 75% !important;
+    display: block;
+    resize: vertical;
+}
+
+.block_part {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.block_part_boutons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_part_boutons button {
+    width: 20%;
+    min-width: 100px;
+    height: 50px;
+}
+
+
+
+    
